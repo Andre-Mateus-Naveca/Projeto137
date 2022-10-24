@@ -1,0 +1,51 @@
+body {
+    background-size: cover;
+    height:100%;
+     margin: 0; 
+     background: linear-gradient(217deg, rgba(228, 41, 41, 0.5), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(23, 216, 158, 0.5), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(157, 184, 34, 0.5), rgba(0,0,255,0) 70.71%);
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+}
+
+.cr_footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+    line-height: 2;
+    color: white;
+}
+
+#numberOfObjects,
+#status,
+#start {
+    font-size: 15px;
+}
+
+.heading {
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 0px 5px 5px rgb(201, 197, 197);
+}
+
+canvas {
+    border: 5px;
+    border-color: cornflowerblue;
+    border-radius: 10px;
+    margin-top: 130px;
+    box-shadow: 5px 5px 5px rgb(168, 163, 163);
+}
+#chosedObject{
+    margin-top: 100px;
+   width:20%;
+   border: 5px;
+   border-radius: 10px;
+   text-align: center;
+}
+#numberOfObjects{
+    margin-left: 20px;
+}
